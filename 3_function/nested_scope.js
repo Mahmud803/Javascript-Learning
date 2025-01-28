@@ -11,4 +11,17 @@ function first()
     // console.log(y) //error:ReferenceError: y is not defined
     sec();
 }
-first();
+// first();
+ 
+function alldollar(value)
+{
+    return '$'+value;
+}
+console.log(alldollar('10'))
+
+//a function assign in variable
+
+const addPlusSign=function(value){
+    return '+'+ value;
+}
+console.log(addPlusSign(21))
